@@ -1,0 +1,2 @@
+git config --global user.name Neferu-22230
+git config --global user.email luizotavios@gmail.com
