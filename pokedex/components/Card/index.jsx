@@ -8,7 +8,7 @@ export default function Card({ pokemon }) {
     const router = useRouter();
     return (
         <TouchableOpacity
-          onPress{() =>
+          onPress = {() =>
             router.push({ pathname: "/pokemon",
                 params: {...pokemon, Tipo: JSON.stringify(pokemon.Tipo) },
             })
