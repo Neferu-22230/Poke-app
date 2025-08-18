@@ -26,7 +26,7 @@ export default function Card({ pokemon }) {
             </ScrollView>
         </View>
         <View style={styles.imageContainer}>
-            <Image source={{ uri: pokemon.Image }} style={styles.image}/>
+            <Image source={{ uri: pokemon.Imagem }} style={styles.image}/>
         </View>
         </TouchableOpacity>
     )

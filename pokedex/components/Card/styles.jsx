@@ -30,7 +30,7 @@ export const styles = StyleSheet.create({
         justifyContent: "center",
         alignItems: "center"
     },
-    image: {
+    imagem: {
         width: 140,
         height: 140,
         right: 10,

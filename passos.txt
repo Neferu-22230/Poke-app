@@ -2,3 +2,4 @@ git config --global user.name Neferu-22230
 git config --global user.email luizotavios@gmail.com
 
 npx expo start --android
+npm run web

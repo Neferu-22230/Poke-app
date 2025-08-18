@@ -20,7 +20,7 @@ export default function PokemonDetail() {
             <View style={[styles.card, { backgroundColor: tipos[0].Cor }]}>
                 <View style={styles.imageContainer}>
                     <Image
-                        source={{ uri: pokemon.Image }}
+                        source={{ uri: pokemon.Imagem }}
                         style={styles.image}
                     />
                 </View>
@@ -40,7 +40,7 @@ export default function PokemonDetail() {
                     />
                     ))}
                 </ScrollView>
-                <View style={stylesContainer}>
+                <View style={styles.dataContainer}>
                     <TextInfo label="Descrição" text={pokemon.Descecao} />
                     <TextInfo label="Espécie" text={pokemon.Especie} />
                     <TextInfo label="Altura" text={pokemon.Altura + "mts"} />
@@ -75,7 +75,7 @@ const styles = StyleSheet.create({
         height: width - 60,
     },
     dataContainer: {
-        height: 260,
+        height: 160,
         paddingHorizontal: 20
     },
 });
