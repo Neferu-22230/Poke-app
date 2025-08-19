@@ -1,5 +1,5 @@
 import { Text, View } from "react-native";
-import { borderRadius, darken } from "polished";
+import { darken } from "polished";
 import { styles } from "./styles";
 
 export default function Button ({ tipo, large = false}) {

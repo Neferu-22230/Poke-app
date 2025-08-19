@@ -2,8 +2,8 @@ import { StyleSheet, Text, View } from "react-native";
 
 export default function TextInfor ({ label, text }) {
     return (
-        <Text style={StyleSheet.text}>
-            <Text style={StyleSheet.bold}>{label}:</Text> {text}
+        <Text style={styles.text}>
+            <Text style={styles.bold}>{label}:</Text> {text}
         </Text>
     );
 }

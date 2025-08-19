@@ -14,7 +14,7 @@ export default function Card({ pokemon }) {
             })
           }
          style={[styles.container,
-            { backgroundColor: `${POKEMON_TYPE_COLORS[pokemon.Tipo[0].Nome]}`},
+            { backgroundColor: `${POKEMON_TYPE_COLORS[pokemon.Tipo[0].Nome]}` },
         ]}>
         <View style ={styles.info}>
             <Text style={styles.numero}>#{pokemon.Numero}</Text>
@@ -26,8 +26,8 @@ export default function Card({ pokemon }) {
             </ScrollView>
         </View>
         <View style={styles.imageContainer}>
-            <Image source={{ uri: pokemon.Imagem }} style={styles.image}/>
+            <Image source={{ uri: pokemon.Imagem }} style={styles.imagem}/>
         </View>
         </TouchableOpacity>
-    )
+    );
 }
